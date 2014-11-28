@@ -28,8 +28,6 @@ while user_input.upcase != "N"
   luck_result = ((luck_total.to_f / number_of_plays) * 100).round
   #Separated into positive/neutral/negative to track "luck"
 
-
-  puts luck_result
   if luck_result > 50
     luck_checker = "You are lucky"
   elsif luck_result <= 50
